@@ -1,0 +1,44 @@
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#app {
+  height: 100%;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container-auth {
+  background-color: #38B2AC;
+}
+
+.link {
+  color: #4A5568
+}
+
+.card-auth {
+  background-color: white;
+}
+
+@media only screen and (max-width: 767px) {
+  .sidebar-items-active {
+    margin-bottom: 0 !important;
+  }
+}
+
